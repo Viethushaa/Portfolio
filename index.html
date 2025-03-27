@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        /* Add necessary CSS for your sections here */
+    </style>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="logo.png" class="logo" alt="Logo">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>Frontend Software Engineer</p>
+                <h1>Hi, I'm <span>Viethushaa</span><br> from Sri Lanka</h1>
+            </div>
+        </div>
+    </div>
+
+    <!----------------------------- About Me ------------------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="My_Image.jpeg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I’m Viethushaa Thangavel, a passionate Frontend Software Engineer currently working as an intern at Detech. I specialize in building responsive, user-friendly web applications using HTML, CSS, JavaScript (ES6+), and modern frameworks. With a strong focus on UI/UX design, performance optimization, and seamless user experiences, I love turning ideas into interactive digital solutions. Constantly learning and evolving, I strive to stay ahead in the ever-changing tech world.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab(event, 'skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab(event, 'experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab(event, 'education')">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Frontend</span><br>Developing interface</li>
+                            <li><span>UI/UX</span><br>Designing interfaces</li>
+                            <li><span>JavaScript</span><br>Developing interactive components</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Internship</span><br>Frontend Developer at Detech</li>
+                            <li><span>Project</span><br>Online Food Ordering website<br>Blood Donation Management System - LiveHeartz</li>
+                            <li><span>Freelance</span><br>UI/UX design projects</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>BSc (Hons) in IT</span><br>University of Sri Lanka</li>
+                            <li><span>Certifications</span><br>JavaScript, UI/UX Design</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- -------------Services------------------------ -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <h2>Responsive Web Development</h2>
+                    <p>As a Frontend Software Engineer, I specialize in building fully responsive, mobile-friendly web applications...</p>
+                </div>
+                <div>
+                    <h2>UI/UX Design Implementation</h2>
+                    <p>Creating intuitive and engaging user interfaces is at the core of my work...</p>
+                </div>
+                <div>
+                    <h2>Performance Optimization & SEO</h2>
+                    <p>Website speed and efficiency are crucial for user retention and SEO ranking...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!------------------- Portfolio -------------------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="foodimage.jpeg">
+                    <div class="layer">
+                        <h3>Foodie's Delight</h3>
+                        <p>This App helps to order the foods through the online anywhere and anytime</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="gorcifyimage.jpg">
+                    <div class="layer">
+                        <h3>Grocify</h3>
+                        <p>Grocify is an online grocery delivery service that focuses on providing fresh, high-quality groceries...</p>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="live_heartz.jpg">
+                    <div class="layer">
+                        <h3>LiveHeartz</h3>
+                        <p>This Blood Donation Management System efficiently manages donor registration...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Contact Section -->
+    <div id="contact">
+        <div class="container">
+            <h1 class="sub-title">Contact Me</h1>
+            <p>If you'd like to get in touch, feel free to reach out to me through any of the following methods:</p>
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <div class="contact-details">
+                        <strong>Email:</strong> <a href="mailto:viethuthanga030@gmail.com">viethuthanga030@gmail.com</a>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-phone-alt"></i>
+                    <div class="contact-details">
+                        <strong>Phone:</strong> +94 741390277
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <i class="fab fa-linkedin"></i>
+                    <div class="contact-details">
+                        <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/viethushaa-thangavel-3b4b6023a/" target="_blank">LinkedIn</a>
+                    </div>
+                </div>
+                <div class="contact-item">
+                    <i class="fab fa-github"></i>
+                    <div class="contact-details">
+                        <strong>GitHub:</strong> <a href="https://github.com/Viethushaa" target="_blank">GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function opentab(evt, tabName) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tab-contents");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].classList.remove("active-tab");
+            }
+            tablinks = document.getElementsByClassName("tab-links");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].classList.remove("active-link");
+            }
+            document.getElementById(tabName).classList.add("active-tab");
+            evt.currentTarget.classList.add("active-link");
+        }
+    </script>
+</body>
+</html>
